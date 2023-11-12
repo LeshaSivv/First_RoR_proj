@@ -1,0 +1,5 @@
+<div class="container">
+  <h2 class="title-lg mb">Редактирование вопроса <%= @question.id %></h2>
+  <%= render 'form', question: @question %>
+  <p><%= link_to "Вернуться к списку вопросов", "/questions", class: 'button button-main' %></p>
+</div>

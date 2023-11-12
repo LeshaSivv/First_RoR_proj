@@ -1,0 +1,15 @@
+<div class="container">
+  <h2 class="title-lg mb">Новый вопрос</h2>
+  <%= render 'form', question: @question %>
+  <p><%= link_to "Вернуться к списку вопросов", "/questions", class: 'button button-main' %></p>
+</div>
+
+
+
+  <%# <form action="" method="post">
+  <p><label for="question_body">Текст вопроса</label></p>
+  <p><textarea name="question[body]" id="question_body" rows="5"></textarea></p>
+  <p><label for="question_user_id">User</label></p>
+  <p><input type="text" name="question[user_id]" id="question_user_id"></p>
+  <p><input type="submit" value="Создать"></p>
+  </form> %>

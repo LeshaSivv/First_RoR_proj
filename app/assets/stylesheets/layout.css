@@ -1,0 +1,37 @@
+body {
+  color: rgb(42, 3, 78);
+  background: rgb(42, 3, 78);
+  display: flex;
+  justify-content: center;
+}
+
+a, button {
+  color: red;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 40px;
+  width: 100%;
+}
+
+.container {
+  background: white;
+}
+
+.container, .navbar {
+  padding: 20px;
+}
+
+.navbar {
+  background-color: rgb(63, 0, 60);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}

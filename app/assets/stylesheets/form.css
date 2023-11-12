@@ -1,0 +1,16 @@
+.ft-area,
+.ft-field {
+  border: 1px solid;
+  padding: 7.5px 10px;
+}
+
+.ft-area:focus,
+.ft-field:focus {
+  background: rgb(255, 198, 252);
+  outline-width: 0;
+}
+
+.ft-area {
+  width: 100%;
+  box-sizing: border-box;
+}
