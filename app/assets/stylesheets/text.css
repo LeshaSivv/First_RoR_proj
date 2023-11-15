@@ -22,6 +22,10 @@ body {
   color:grey;
 }
 
+.text-red {
+  color:rgb(243, 4, 4);
+}
+
 .text-bold {
   font-weight: bold;
 }
